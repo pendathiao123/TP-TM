@@ -4,7 +4,7 @@ from scipy.linalg import solve_banded
 
 def solve_heat_implicit(f, nx, nt, t_final):
     """
-    Résout l'équation de la chaleur 1D avec un schéma implicite (algorithme de Thomas).
+    Résout l'équation de la chaleur 1D avec un schéma implicite.
 
     Args:
         f (function): Condition initiale u(x, 0) = f(x).
