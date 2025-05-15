@@ -2,7 +2,7 @@
 
 Ce projet a pour objectif d'implémenter et de comparer différentes méthodes numériques pour résoudre l'équation de la chaleur 1D :
 
-$\frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}$
+$\frac{\partial u}{\partial t} = \frac{\partial^2 u}{\partial x^2}$
 
 avec des conditions aux limites $u(0, t) = 0$ et $u(1, t) = 0$, et différentes conditions initiales $u(x, 0) = f(x)$. Nous avons exploré la solution analytique ainsi que trois schémas numériques aux différences finies : le schéma explicite (FTCS), le schéma implicite (Backward Euler) et le schéma de Crank-Nicolson.
 
