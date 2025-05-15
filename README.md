@@ -33,6 +33,6 @@ Les résultats de chaque méthode numérique et pour chaque condition initiale s
 ## Execution
 Pour exécuter chaque schéma numérique, naviguez vers le répertoire correspondant dans votre terminal et exécutez le script Python correspondant :
 ```bash
-python schema_explicite.py
-python schema_implicite.py
-python schema_crank-nicolson.py
+python3 schema_explicite.py
+python3 schema_implicite.py
+python3 schema_crank-nicolson.py
